@@ -1,0 +1,142 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fcfbfb;
+}
+
+header {
+    position: relative;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.banner {
+    width: 100%;
+    text-align: center;
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+#logitech-products {
+    background-color: #000;
+    color: #fdfdfd;
+    display: flex;
+    overflow-x: auto;
+    padding: 20px;
+}
+
+#logitech-products h2 {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#logitech-products .product-card {
+    width: 250px;
+    border: 2px solid #333;
+    margin-right: 10px;
+    padding: 20px;
+    text-align: center;
+    background-color: #000;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 0 0 auto;
+}
+
+#logitech-products .product-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#logitech-products .product-card h2 {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+#logitech-products .product-card p {
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
+
+#logitech-products .product-card button {
+    background-color: #673ab7;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.8em;
+}
+
+#video-cards {
+    background-color: #fff;
+    display: flex;
+    overflow-x: auto;
+    padding: 20px;
+}
+
+.video-cards-title {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.hardware-badge {
+    background-color: #e0e0e0;
+    color: #092df3;
+    padding: 2px 8px;
+    border-radius: 1px;
+    font-size: 0.4em;
+}
+
+.product-card {
+    width: 200px;
+    border: 2px solid #333;
+    margin-right: 10px;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 0 0 auto;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product-card h2 {
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+.product-card p {
+    font-size: 0.8em;
+    margin-bottom: 5px;
+}
+
+.product-card button {
+    background-color: #673ab7;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.8em;
+}
